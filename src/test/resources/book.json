@@ -1,0 +1,30 @@
+{
+    "author": "John Ronald Reuel Tolkien",
+    "title": "The Hobbit, or There and Back Again",
+    "genre": "Children's fantasy",
+    "mainCharacters":
+    [
+        "Bilbo Baggins",
+        "Gandalf",
+        "Thorin Oakenshield",
+        "Smaug"
+    ],
+    "editions":
+    [
+        {
+            "publishedYear": 1937,
+            "publisher": "George Allen &Unwin Ltd",
+            "numberOfCopies": 1500
+        },
+        {
+            "publishedYear": 1937,
+            "publisher": "George Allen &Unwin Ltd",
+            "numberOfCopies": 2300
+        },
+        {
+            "publishedYear": 1938,
+            "publisher": "Houghton Mifflin Company",
+            "numberOfCopies": 5000
+        }
+    ]
+}
