@@ -3,5 +3,5 @@
 *.class
 .DS_Store
 /.gradle/
-/.idea/
+.idea/
 /build/
