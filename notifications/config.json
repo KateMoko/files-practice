@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "Files testing",
+    "environment": "Local",
+    "comment": "I just want to check notification",
+    "reportLink": "",
+    "language": "en",
+    "allureFolder": "build/reports/allure-report/allureReport",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6147852677:AAFLPtvdhz76RHWW10MeKq-Nkhe0XeyrnJQ",
+    "chat": "37006455",
+    "replyTo": ""
+  }
+}

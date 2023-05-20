@@ -2,7 +2,10 @@ package com.katemoko.tests;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.katemoko.pojos.Book;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import java.io.InputStream;
@@ -12,6 +15,9 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@Feature("FilesTesting")
+@Story("JSON testing")
+@Tag("files")
 public class ParsingJsonTest {
 
     private ClassLoader cl = ParsingJsonTest.class.getClassLoader();

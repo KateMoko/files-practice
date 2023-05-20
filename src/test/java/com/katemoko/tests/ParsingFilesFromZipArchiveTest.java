@@ -3,7 +3,10 @@ package com.katemoko.tests;
 import com.codeborne.pdftest.PDF;
 import com.codeborne.xlstest.XLS;
 import com.opencsv.CSVReader;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import java.io.InputStream;
@@ -16,6 +19,9 @@ import static com.codeborne.pdftest.PDF.containsExactText;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
+@Feature("FilesTesting")
+@Story("Files in zip testing")
+@Tag("files")
 public class ParsingFilesFromZipArchiveTest {
 
     private ClassLoader cl = ParsingFilesFromZipArchiveTest.class.getClassLoader();
